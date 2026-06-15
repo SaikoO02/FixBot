@@ -983,8 +983,7 @@ nav {
 
   .hero-slider {
     width: 100%;
-    height: auto;
-    aspect-ratio: 656 / 736;
+    height: calc(100vw * 736 / 656);
   }
 
   .phone-img {
