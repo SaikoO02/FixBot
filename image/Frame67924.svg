@@ -1,0 +1,29 @@
+<svg width="720" height="672" viewBox="0 0 720 672" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_861_2226)">
+<rect width="720" height="672" fill="#017DFF"/>
+<line x1="696.152" y1="337.56" x2="24.0005" y2="337.56" stroke="#003E94" stroke-opacity="0.6" stroke-width="1.12025"/>
+<path d="M360.383 337.56C521.128 337.56 651.437 467.595 651.437 628C651.437 788.404 521.128 918.439 360.383 918.439C199.637 918.439 69.3301 788.404 69.3301 628C69.3301 467.595 199.637 337.56 360.383 337.56Z" stroke="#003E94" stroke-opacity="0.6" stroke-width="1.12025"/>
+<path d="M360.383 -244.44C521.128 -244.44 651.437 -114.404 651.437 45.9999C651.437 206.404 521.128 336.439 360.383 336.439C199.637 336.439 69.3301 206.404 69.3301 45.9999C69.3301 -114.404 199.637 -244.44 360.383 -244.44Z" stroke="#003E94" stroke-opacity="0.6" stroke-width="1.12025"/>
+<circle cx="360.076" cy="336.387" r="335.516" stroke="#003E94" stroke-opacity="0.6" stroke-width="1.12025"/>
+<line x1="92.7863" y1="331.956" x2="81.5113" y2="343.231" stroke="#003E94" stroke-opacity="0.6" stroke-width="2.24051"/>
+<line x1="92.0711" y1="343.231" x2="80.7962" y2="331.956" stroke="#003E94" stroke-opacity="0.6" stroke-width="2.24051"/>
+<line x1="641.054" y1="331.956" x2="629.779" y2="343.231" stroke="#003E94" stroke-opacity="0.6" stroke-width="2.24051"/>
+<line x1="640.338" y1="343.231" x2="629.063" y2="331.956" stroke="#003E94" stroke-opacity="0.6" stroke-width="2.24051"/>
+<circle cx="543.445" cy="402.621" r="5.5195" fill="#017DFF"/>
+<circle cx="543.445" cy="402.621" r="4.95937" stroke="#003E94" stroke-opacity="0.6" stroke-width="1.12025"/>
+<circle cx="177.932" cy="402.621" r="5.5195" fill="#017DFF"/>
+<circle cx="177.932" cy="402.621" r="4.95937" stroke="#003E94" stroke-opacity="0.6" stroke-width="1.12025"/>
+<line y1="-0.560127" x2="335.365" y2="-0.560127" transform="matrix(-0.817424 -0.576037 -0.576037 0.817424 634.824 336.387)" stroke="#003E94" stroke-opacity="0.6" stroke-width="1.12025" stroke-dasharray="25.77 25.77"/>
+<line y1="-0.560127" x2="335.365" y2="-0.560127" transform="matrix(0.817424 0.576037 0.576037 -0.817424 86.5547 143.818)" stroke="#003E94" stroke-opacity="0.6" stroke-width="1.12025" stroke-dasharray="25.77 25.77"/>
+<line x1="634.264" y1="681.093" x2="634.264" y2="9.50977" stroke="#003E94" stroke-opacity="0.6" stroke-width="1.12025" stroke-dasharray="25.77 25.77"/>
+<line x1="360.128" y1="717.89" x2="360.128" y2="46.3061" stroke="#003E94" stroke-opacity="0.6" stroke-width="1.12025" stroke-dasharray="25.77 25.77"/>
+<line x1="85.9946" y1="717.89" x2="85.9946" y2="46.3061" stroke="#003E94" stroke-opacity="0.6" stroke-width="1.12025" stroke-dasharray="25.77 25.77"/>
+<circle cx="543.445" cy="271.379" r="5.5195" fill="#017DFF"/>
+<circle cx="543.445" cy="271.379" r="4.95937" stroke="#003E94" stroke-opacity="0.6" stroke-width="1.12025"/>
+</g>
+<defs>
+<clipPath id="clip0_861_2226">
+<rect width="720" height="672" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FIXB*T</title>
+  <link rel="icon" type="image/svg+xml" href="image/F1196.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="layout">
+
+    <!-- LEFT: Phone -->
+    <div class="col-left">
+      <div class="hero-slider">
+        <img class="phone-img hero-slide hero-slide--active" src="image/Frame 37943.svg" alt="" />
+        <img class="phone-img hero-slide" src="image/Frame137989.svg" alt="" />
+        <img class="phone-img hero-slide" src="image/Frame237995.svg" alt="" />
+      </div>
+    </div>
+
+    <!-- RIGHT: Nav + Hero -->
+    <div class="col-right">
+
+      <nav>
+        <div class="nav-links">
+          <a href="#about">О нас</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#faq">FAQ</a>
+        </div>
+        <img class="logo" src="image/logo.svg" alt="FIXB*T" />
+      </nav>
+
+      <div class="hero-text">
+        <h1 class="hero-title">Ваш личный<br>диагност поломок</h1>
+        <p class="hero-sub">
+          Диагностика поломок по фото, звуку или описанию. Точный диагноз, цена ремонта и пошаговая инструкция — в одном приложении.
+        </p>
+        <button class="btn-download">Скачать</button>
+      </div>
+      <div class="icons-row hero-dots">
+        <img src="image/Vector.svg" alt="" />
+        <img src="image/Vector.svg" alt="" />
+        <img src="image/Vector.svg" alt="" />
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- BLOCK 2: ПРОБЛЕМЫ -->
+  <section class="problems" id="about">
+    <div class="problems-inner">
+
+      <div class="problems-header">
+        <h2 class="problems-title">Проблемы</h2>
+        <p class="problems-desc">Каждый третий сталкивался<br>с обманом мастера, а инструкции<br>теряются навсегда</p>
+      </div>
+
+      <div class="problems-body">
+        <img src="image/Group1182.svg" alt="Статистика" class="problems-img" />
+        <p class="problems-footnote">Вы теряете время, деньги и нервы.<br>FixBot даёт вам решение<br>до вызова мастера.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BLOCK 3: КАК ЭТО РАБОТАЕТ -->
+  <section class="how">
+    <div class="how-inner">
+
+      <div class="how-left">
+        <div class="how-header">
+          <h2 class="how-title">Как это работает</h2>
+          <p class="how-subtitle">Три способа диагностики —<br>один точный ответ</p>
+        </div>
+
+        <div class="how-items">
+          <div class="how-item how-item--active" data-image="image/Frame37924.svg">
+            <h3 class="how-item-title">По фото</h3>
+            <p class="how-item-desc">Сфотографируйте поломку — ИИ определит дефект.</p>
+            <img src="image/Frame37924.svg" alt="" class="how-item-img" />
+          </div>
+          <div class="how-item how-item--dimmed" data-image="image/Frame47924.svg">
+            <h3 class="how-item-title">По звуку</h3>
+            <p class="how-item-desc">Запишите 10 секунд работы — нейросеть распознает<br>стук, скрежет или свист.</p>
+            <img src="image/Frame47924.svg" alt="" class="how-item-img" />
+          </div>
+          <div class="how-item how-item--dimmed" data-image="image/Frame57984.svg">
+            <h3 class="how-item-title">По описанию</h3>
+            <p class="how-item-desc">Опишите проблему своими словами — ИИ поможет<br>уточнить детали и даст расшифровку.</p>
+            <img src="image/Frame57984.svg" alt="" class="how-item-img" />
+          </div>
+        </div>
+      </div>
+
+      <div class="how-right">
+        <img src="image/Frame37924.svg" alt="Приложение FIXB*T" class="how-phone" />
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BLOCK 4: ЧТО ВЫ ПОЛУЧИТЕ -->
+  <section class="results">
+    <div class="results-inner">
+
+      <h2 class="results-title">Что вы получите в результате</h2>
+
+      <div class="results-list-wrap">
+        <ul class="results-list">
+          <li class="results-item results-item--dimmed" data-image="image/дигноз.svg">
+            <span class="results-item-name">Точный диагноз
+              <span class="results-item-note">что именно сломалось,<br>простыми словами</span>
+            </span>
+            <span class="results-item-num">01</span>
+            <img src="image/дигноз.svg" alt="" class="results-item-img" />
+          </li>
+          <li class="results-item results-item--dimmed" data-image="image/цена ремонта.svg">
+            <span class="results-item-name">Примерная цена ремонта
+              <span class="results-item-note">узнайте, сколько стоит<br>починить, чтобы<br>не переплатить</span>
+            </span>
+            <span class="results-item-num">02</span>
+            <img src="image/цена ремонта.svg" alt="" class="results-item-img" />
+          </li>
+          <li class="results-item results-item--active" data-image="image/индикатор серьезности.svg">
+            <span class="results-item-name">Индикатор серьёзности
+              <span class="results-item-note">насколько серьёзная<br>и опасная проблема</span>
+            </span>
+            <span class="results-item-num">03</span>
+            <img src="image/индикатор серьезности.svg" alt="" class="results-item-img" />
+          </li>
+          <li class="results-item results-item--dimmed" data-image="image/инструкция.svg">
+            <span class="results-item-name">Инструкция по починке
+              <span class="results-item-note">пошаговые фото/видео для тех,<br>кто хочет починить сам</span>
+            </span>
+            <span class="results-item-num">04</span>
+            <img src="image/инструкция.svg" alt="" class="results-item-img" />
+          </li>
+          <li class="results-item results-item--dimmed" data-image="image/мастер.svg">
+            <span class="results-item-name">Вызов проверенного мастера
+              <span class="results-item-note">с фиксированной ценой<br>и рейтингом</span>
+            </span>
+            <span class="results-item-num">05</span>
+            <img src="image/мастер.svg" alt="" class="results-item-img" />
+          </li>
+        </ul>
+
+        <div class="results-float">
+          <div class="results-card-header">
+            <div class="results-card-title"></div>
+            <span class="results-card-num"></span>
+          </div>
+          <p class="results-card-note"></p>
+          <img src="image/индикатор серьезности.svg" alt="" class="results-float-img" />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BLOCK 5: FIXBOT ПОДХОДИТ -->
+  <section class="cta">
+    <div class="cta-inner">
+      <h2 class="cta-title">FIXBOT подходит и новичкам,<br>и опытным мастерам</h2>
+      <div class="cta-right">
+        <p class="cta-desc">Выберите ваш уровень опыта<br>при регистрации — и приложение<br>подстроит ответы.</p>
+        <button class="btn-download">Скачать</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOCK 6: НОВИЧОК -->
+  <section class="novice">
+    <div class="novice-inner">
+
+      <div class="novice-left">
+        <img src="image/Frame37932.svg" alt="Новичок" class="novice-img" />
+      </div>
+
+      <div class="novice-right">
+        <h2 class="novice-title">Новичок</h2>
+        <ul class="novice-list">
+          <li>Чёткая рекомендация: чинить самому или вызывать мастера</li>
+          <li>Примерная стоимость ремонта</li>
+          <li>Предупреждение о рисках</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BLOCK 7: ОПЫТНЫЙ МАСТЕР -->
+  <section class="novice novice--reverse">
+    <div class="novice-inner">
+
+      <div class="novice-right novice-right--reverse">
+        <h2 class="novice-title">Базовый</h2>
+        <ul class="novice-list">
+          <li>Диагноз и советы, чинить самому 
+            или обратиться к мастеру</li>
+          <li>Примерная цена запчастей и работы, пошаговая инструкция с фото</li>
+          <li>Подсказки, где можно ошибиться</li>
+        </ul>
+      </div>
+
+      <div class="novice-left">
+        <img src="image/Frame37931.svg" alt="Опытный мастер" class="novice-img" />
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BLOCK 8 -->
+  <section class="novice">
+    <div class="novice-inner">
+
+      <div class="novice-left">
+        <img src="image/Frame37985.svg" alt="Новичок" class="novice-img" />
+      </div>
+
+      <div class="novice-right">
+        <h2 class="novice-title">Продвинутый</h2>
+        <ul class="novice-list">
+          <li>Детальная пошаговая инструкция 
+            с фото и видео</li>
+          <li>Список инструментов и запчастей</li>
+          <li>Чат с мастером, если застрял</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BLOCK 9: ОТЗЫВ -->
+  <section class="review" id="reviews">
+    <div class="review-inner">
+
+      <div class="review-photo">
+        <img src="image/Frame 37934.svg" alt="" class="review-img" id="review-left" />
+      </div>
+
+      <div class="review-center">
+        <h2 class="review-title">Ваш опыт<br>использования<br>нашего<br>приложения</h2>
+        <span class="review-tag" id="review-tag">Стиральная машина Indesit</span>
+      </div>
+
+      <img src="image/Frame 37933.svg" alt="" class="review-side-img" id="review-right" />
+
+      <div class="icons-row review-dots">
+        <img src="image/1Vector.svg" alt="" />
+        <img src="image/Vector.svg" alt="" />
+        <img src="image/Vector.svg" alt="" />
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BLOCK 10: FAQ -->
+  <section class="faq" id="faq">
+    <div class="faq-inner">
+
+      <div class="faq-left">
+        <img src="image/Frame37937.svg" alt="" class="faq-phone" />
+      </div>
+
+      <div class="faq-right">
+        <h2 class="faq-title">Часто задаваемые<br>вопросы</h2>
+        <ul class="faq-list">
+          <li class="faq-item">
+            <button class="faq-question">
+              <span>Насколько точен диагноз?</span>
+              <img src="image/Vector.svg" alt="" class="faq-icon" />
+            </button>
+            <div class="faq-answer">
+              <p>ИИ определяет причину поломки с точностью до 90%. Результат зависит от качества фото или описания — чем подробнее, тем точнее диагноз.</p>
+            </div>
+          </li>
+          <li class="faq-item">
+            <button class="faq-question">
+              <span>Нужен ли интернет?</span>
+              <img src="image/Vector.svg" alt="" class="faq-icon" />
+            </button>
+            <div class="faq-answer">
+              <p>Да, для анализа данных приложение использует облачный ИИ. Достаточно обычного мобильного интернета.</p>
+            </div>
+          </li>
+          <li class="faq-item">
+            <button class="faq-question">
+              <span>Какая техника поддерживается?</span>
+              <img src="image/Vector.svg" alt="" class="faq-icon" />
+            </button>
+            <div class="faq-answer">
+              <p>Стиральные машины, холодильники, посудомойки, плиты, кондиционеры и другая бытовая техника — более 500 марок и моделей.</p>
+            </div>
+          </li>
+          <li class="faq-item">
+            <button class="faq-question">
+              <span>Сколько это стоит?</span>
+              <img src="image/Vector.svg" alt="" class="faq-icon" />
+            </button>
+            <div class="faq-answer">
+              <p>Базовая диагностика бесплатна. Расширенные функции — инструкции с фото, вызов мастера — доступны по подписке от 199 ₽/мес.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- BLOCK 11: ФИНАЛЬНЫЙ CTA -->
+  <section class="final-cta">
+    <div class="final-cta-left">
+      <h2 class="final-cta-title">Готовы забыть<br>о дорогих мастерах<br>и потерянных<br>инструкциях?</h2>
+      <p class="final-cta-desc">Детальная пошаговая инструкция<br>с фото и видео</p>
+      <button class="btn-appstore">Скачать в App Store</button>
+    </div>
+    <img src="image/Frame37937.svg" alt="" class="final-cta-img" />
+  </section>
+
+
+  <script src="script.js"></script>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <a href="#">Поддержка</a>
+        <a href="#">Политика конфиденциальности</a>
+      </div>
+      <div class="footer-col">
+        <a href="#">О нас</a>
+        <a href="#">Отзывы</a>
+        <a href="#">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <a href="#">ВК</a>
+        <a href="#">ТГ</a>
+      </div>
+      <div class="footer-col">
+        <span class="footer-app-label">Скачай наше приложение</span>
+        <a href="#"><img src="image/Frame37919.svg" alt="Скачать в App Store" class="footer-appstore-img" /></a>
+      </div>
+    </div>
+    <div class="footer-logo-big">
+    <img src="image/logo.svg" alt="FIXB*T" class="footer-logo-img footer-logo-desktop" />
+    <img src="image/2logo.svg" alt="FIXB*T" class="footer-logo-img footer-logo-mobile" />
+  </div>
+  </footer>
+
+</body>
+</html>
