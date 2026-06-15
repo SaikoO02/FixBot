@@ -964,7 +964,7 @@ nav {
 
   .col-left {
     grid-row: 2;
-    padding: 0 20px 20px;
+    padding: 0 0 20px;
     justify-content: flex-start;
   }
 
@@ -990,7 +990,6 @@ nav {
   .phone-img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
   }
 
   .nav-links {
